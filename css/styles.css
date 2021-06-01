@@ -1,0 +1,34 @@
+.tabs .list{
+    padding: 0;
+    border-bottom: 1px solid black;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.tabs .tab{
+    border: 1px solid black;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.tabs .tab.active{
+    background-color: lightgrey;
+    box-shadow: 0 0 5px;
+    cursor: default;
+}
+
+.tabs .contents{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.tabs .content{
+    display: none;
+}
+
+.tabs .content.show{
+    display: initial;
+}
